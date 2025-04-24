@@ -1,0 +1,44 @@
+body{
+  font-family: Sansation;
+}
+/* Header Menu Start */
+.logo{
+  font-size: 24px;
+}
+
+.nav-items li {
+  font-size: 19px;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.nav-items ul{
+  display: flex;
+  margin-right: 25px;
+}
+
+.nav-items{
+  display: flex;
+}
+.nav-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-color{
+  color: #FD6E0A;
+}
+
+.nav-btn{
+  background-color: #FD6E0A;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* Header Menu End */
+
+
