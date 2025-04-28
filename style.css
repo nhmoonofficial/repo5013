@@ -39,6 +39,24 @@ body{
   border-radius: 5px;
 }
 
+.nav-items li > a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.nav-items li > a:hover{
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    padding: 15px 25px;
+}
+
+.nav-btn:hover{
+  color:#FD6E0A;
+  background-color: white;
+  border: 1px solid #FD6E0A;
+
+}
 /* Header Menu End */
 
 
