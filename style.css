@@ -59,4 +59,50 @@ body{
 }
 /* Header Menu End */
 
+/* banner start */
 
+.banner{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center;
+  justify-items: center; */
+  align-items: center;
+}
+
+.banner_info{
+  max-width: 580px;
+  margin-left: 170px;
+
+}
+
+.banner_image{ 
+  margin-right: 50px;
+}
+
+.banner_image img{
+  width: 500px;
+}
+
+.banner_info h4{
+  font-size: 45px;
+  margin: 0px;
+}
+
+.banner_info h1{
+  font-size: 85px;
+  margin: 20px 0px;
+  font-weight: 800
+
+}
+
+.banner_info p{
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.banner_btn{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
