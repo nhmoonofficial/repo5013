@@ -76,13 +76,13 @@ body{
 
 }
 
-.banner_image{ 
-  margin-right: 50px;
-}
+/* .banner_image{ 
+  margin-right: 20px;
+} */
 
-.banner_image img{
+/* .banner_image img{
   width: 500px;
-}
+} */
 
 .banner_info h4{
   font-size: 45px;
@@ -105,4 +105,10 @@ body{
   display: flex;
   gap: 30px;
   margin-top: 30px;
+}
+
+.container{
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
