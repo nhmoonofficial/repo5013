@@ -72,7 +72,7 @@ body{
 
 .banner_info{
   max-width: 580px;
-  margin-left: 170px;
+  margin-left: 150px;
 
 }
 
@@ -111,4 +111,31 @@ body{
   background-image: url(images/developer.png), url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+}
+
+
+/* about section start */
+
+.about_section{
+  max-width: 1450px;
+  background-color: #FFF8F3;
+  margin: 70px auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 70px 30%;
+
+
+}
+
+
+.about_bottom{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  line-height: 0px;
+}
+
+
+.about_info p{
+  line-height:28px;
 }
