@@ -1,5 +1,6 @@
 body{
   font-family: Sansation;
+  
 }
 /* Header Menu Start */
 .logo{
@@ -110,7 +111,9 @@ body{
 .container{
   background-image: url(images/developer.png), url(images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position: bottom left, bottom right;
+  height: 100%;
+   background-size:contain;
 }
 
 
@@ -119,11 +122,10 @@ body{
 .about_section{
   max-width: 1450px;
   background-color: #FFF8F3;
-  margin: 70px auto;
   border-radius: 10px;
   text-align: center;
-  padding: 70px 30%;
-
+  margin: 5% 20%;
+  padding: 50px 150px;
 
 }
 
@@ -138,4 +140,35 @@ body{
 
 .about_info p{
   line-height:28px;
+}
+
+/* skill section start */
+.skill_sections{
+  margin: 5% 20%;
+  background-color: #F3F3F3;
+}
+
+.main_skill{
+  display: flex;
+  gap: 20px;
+  padding: 20px 150px; 
+}
+
+.js, .react, .node, .mongodb{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.main_skill p{
+  line-height: 28px;
+}
+
+.skill_info{
+  text-align: center;
+  padding: 50px 12%;
+}
+
+.skill_info p{
+  line-height: 28px;
 }
