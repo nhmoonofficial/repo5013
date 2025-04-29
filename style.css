@@ -208,3 +208,30 @@ body{
 }
 
 
+
+/* footer start here */
+
+.footer_sec{
+  padding: 1% 29%;
+  background-color: #FFF8F3;
+  display: flex;
+  gap: 100px;
+}
+
+.footer_sec p{
+  line-height: 28px;
+}
+
+.footer_sec input[type="text"], .footer_sec input[type="email"], .footer_sec textarea{
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0px;
+}
+
+/* .footer_sec input[type="email"]{
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0px;
+} */
