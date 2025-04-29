@@ -200,3 +200,11 @@ body{
   gap: 20px;
 }
 
+
+.resume_btn{
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+
