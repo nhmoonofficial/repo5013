@@ -172,3 +172,31 @@ body{
 .skill_info p{
   line-height: 28px;
 }
+
+
+/* resume section start */
+
+
+.resume{
+  margin: 5% 20%;
+  padding: 50px 9%;
+}
+.resume_heading h1{
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0px
+}
+
+.edu, .edu1, .ex, .ex1{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+}
+
+.info_re> h4,h5{
+  line-height:  0px;
+}
+.info_re{
+  display: flex;
+  gap: 20px;
+}
+
